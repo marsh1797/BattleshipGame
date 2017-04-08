@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="BattleshipGame.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug-Windows|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src\Model\SeaGridAdapter.cs">
+    <Files>
+      <File FileName="src\DeploymentController.cs" Line="39" Column="43" />
+      <File FileName="src\Model\SeaGrid.cs" Line="15" Column="15" />
+      <File FileName="src\Model\SeaGridAdapter.cs" Line="62" Column="36" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
