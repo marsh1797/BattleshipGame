@@ -82,6 +82,7 @@ public class SeaGrid : ISeaGrid
 	/// </summary>
 	public SeaGrid(Dictionary<ShipName, Ship> ships)
 	{
+		_GameTiles = new Tile[Width, Height];
 		//fill array with empty Tiles
 		int i = 0;
 		for (i = 0; i <= Width - 1; i++) {
