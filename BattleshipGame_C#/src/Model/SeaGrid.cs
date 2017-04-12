@@ -4,6 +4,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+
+//using SwinGameSDK;
+
 /// <summary>
 /// The SeaGrid is the grid upon which the ships are deployed.
 /// </summary>
@@ -84,8 +87,8 @@ public class SeaGrid : ISeaGrid
 	{
 		_GameTiles = new Tile[Width, Height];
 		//fill array with empty Tiles
-		int i = 0;
-		for (i = 0; i <= Width - 1; i++) {
+		//!! int i = 0;
+		for (int i = 0; i <= Width - 1; i++) {
 			for (int j = 0; j <= Height - 1; j++) {
 				_GameTiles[i, j] = new Tile(i, j, null);
 			}

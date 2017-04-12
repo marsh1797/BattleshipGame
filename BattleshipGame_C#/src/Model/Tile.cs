@@ -4,6 +4,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+//!!
+using SwinGameSDK;
+
 /// <summary>
 /// Tile knows its location on the grid, if it is a ship and if it has been 
 /// shot before

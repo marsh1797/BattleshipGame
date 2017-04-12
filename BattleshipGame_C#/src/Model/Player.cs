@@ -4,6 +4,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+//!!
+using SwinGameSDK;
+
 /// <summary>
 /// Player has its own _PlayerGrid, and can see an _EnemyGrid, it can also check if
 /// all ships are deployed and if all ships are detroyed. A Player can also attach.
@@ -186,9 +189,13 @@ public class Player : IEnumerable<Ship>
 		switch (result.Value) {
 			case ResultOfAttack.Destroyed:
 			case ResultOfAttack.Hit:
+			//!!
+				_shots += 1;
 				_hits += 1;
 				break;
 			case ResultOfAttack.Miss:
+				//!!
+				_shots += 1;
 				_misses += 1;
 				break;
 		}

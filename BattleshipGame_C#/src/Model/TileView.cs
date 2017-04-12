@@ -4,6 +4,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+//!!
+using SwinGameSDK;
+
 /// <summary>
 /// The values that are visable for a given tile.
 /// </summary>
