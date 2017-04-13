@@ -181,7 +181,7 @@ public class Player : IEnumerable<Ship>
 	/// <returns>the result of the attack</returns>
 	internal AttackResult Shoot(int row, int col)
 	{
-		_shots += 1;
+		//_shots += 1; unnecessary, causes shots to not add up correctly
 		AttackResult result = default(AttackResult);
 		result = EnemyGrid.HitTile(row, col);
 
