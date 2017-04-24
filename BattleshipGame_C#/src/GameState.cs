@@ -50,7 +50,12 @@ public enum GameState
 	/// <summary>
 	/// The player has quit. Show ending credits and terminate the game
 	/// </summary>
-	Quitting
+	Quitting,
+
+	/// <summary>
+	/// Allow user to view the rules
+	/// </summary>
+	ViewRules
 }
 
 //=======================================================

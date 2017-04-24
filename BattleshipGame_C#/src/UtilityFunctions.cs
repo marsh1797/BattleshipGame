@@ -243,6 +243,10 @@ static class UtilityFunctions
 			case GameState.Deploying:
 				SwinGame.DrawBitmap(GameResources.GameImage("Deploy"), 0, 0);
 				break;
+			case GameState.ViewRules:
+				SwinGame.DrawBitmap (GameResources.GameImage ("Menu"), 0, 0);
+				RulesController.DrawRules ();
+				break;
 			default:
 				SwinGame.ClearScreen();
 				break;
