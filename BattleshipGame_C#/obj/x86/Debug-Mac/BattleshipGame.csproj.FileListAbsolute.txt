@@ -1,2 +1,0 @@
-C:\Users\wong\Desktop\BattleshipGame\BattleshipGame_C#\obj\x86\Debug-Mac\MyGame.exe
-C:\Users\wong\Desktop\BattleshipGame\BattleshipGame_C#\obj\x86\Debug-Mac\MyGame.pdb
