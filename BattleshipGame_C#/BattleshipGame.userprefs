@@ -6,19 +6,19 @@
       <Breakpoint file="C:\Users\USER\BattleshipGame\BattleshipGame_C#\src\Model\AIPlayer.cs" line="19" column="18" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="src\Model\Player.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src\GameController.cs">
     <Files>
       <File FileName="src\Model\SeaGrid.cs" Line="1" Column="1" />
       <File FileName="src\Model\SeaGridAdapter.cs" Line="1" Column="1" />
-      <File FileName="src\GameResources.cs" Line="1" Column="1" />
-      <File FileName="src\GameState.cs" Line="1" Column="1" />
-      <File FileName="src\HighScoreController.cs" Line="194" Column="23" />
-      <File FileName="src\MenuController.cs" Line="1" Column="1" />
-      <File FileName="src\UtilityFunctions.cs" Line="1" Column="1" />
-      <File FileName="src\Model\AIHardPlayer.cs" Line="1" Column="1" />
+      <File FileName="src\GameResources.cs" Line="25" Column="36" />
+      <File FileName="src\GameState.cs" Line="28" Column="2" />
+      <File FileName="src\HighScoreController.cs" Line="202" Column="19" />
+      <File FileName="src\MenuController.cs" Line="92" Column="2" />
+      <File FileName="src\UtilityFunctions.cs" Line="247" Column="65" />
+      <File FileName="src\Model\AIHardPlayer.cs" Line="327" Column="23" />
       <File FileName="src\Model\AIPlayer.cs" Line="1" Column="1" />
-      <File FileName="src\Model\Player.cs" Line="184" Column="3" />
-      <File FileName="src\Model\AIMediumPlayer.cs" Line="1" Column="1" />
+      <File FileName="src\Model\Player.cs" Line="1" Column="1" />
+      <File FileName="src\Model\AIMediumPlayer.cs" Line="67" Column="25" />
       <File FileName="src\Model\AIOption.cs" Line="1" Column="1" />
       <File FileName="src\Model\AttackResult.cs" Line="1" Column="1" />
       <File FileName="src\Model\BattleShipsGame.cs" Line="1" Column="1" />
@@ -29,12 +29,13 @@
       <File FileName="src\Model\ShipName.cs" Line="1" Column="1" />
       <File FileName="src\Model\Tile.cs" Line="1" Column="1" />
       <File FileName="src\Model\TileView.cs" Line="1" Column="1" />
-      <File FileName="src\GameController.cs" Line="1" Column="1" />
+      <File FileName="src\GameController.cs" Line="294" Column="10" />
       <File FileName="src\GameLogic.cs" Line="1" Column="1" />
       <File FileName="src\DiscoveryController.cs" Line="1" Column="1" />
       <File FileName="src\EndingGameController.cs" Line="1" Column="1" />
-      <File FileName="src\DeploymentController.cs" Line="1" Column="1" />
-      <File FileName="G:\Uni stuff\intro to programming\FINAL SUBMISSION\100066691_Yong.c" Line="1" Column="1" />
+      <File FileName="src\DeploymentController.cs" Line="157" Column="38" />
+      <File FileName="src\Model\RulesController.cs" Line="1" Column="1" />
+      <File FileName="src\RulesController.cs" Line="25" Column="16" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.BattleshipGame PreferredExecutionTarget="MonoDevelop.Default" />
