@@ -18,6 +18,8 @@ static class HighScoreController
 	private const int NAME_WIDTH = 3;
 
 	private const int SCORES_LEFT = 490;
+
+	private static int HighestScore;
 	/// <summary>
 	/// The score structure is used to keep the name and
 	/// score of the top players together.
@@ -136,6 +138,10 @@ static class HighScoreController
 			//for scores 1 - 9 use 01 - 09
 			if (i < 9) {
 				SwinGame.DrawText(" " + (i + 1) + ":   " + s.Name + "   " + s.Value, Color.White, GameResources.GameFont("Courier"), SCORES_LEFT, SCORES_TOP + i * SCORE_GAP);
+				//Added by Eva->Store the highest score into HighestScore
+				if (i == 0) {
+					HighestScore = s.Value;
+				}
 			} else {
 				SwinGame.DrawText(i + 1 + ":   " + s.Name + "   " + s.Value, Color.White, GameResources.GameFont("Courier"), SCORES_LEFT, SCORES_TOP + i * SCORE_GAP);
 			}
@@ -201,6 +207,11 @@ static class HighScoreController
 
 			GameController.EndCurrentState();
 		}
+	}
+
+	//Added by Eva->Store highestscore so that other classes can access this variable
+	public static int Highestscore {
+		get { return HighestScore; }
 	}
 }
 

@@ -23,6 +23,7 @@ C:\Users\User\BattleshipGame\BattleshipGame_C#\bin\Debug\MyGame.exe
 C:\Users\User\BattleshipGame\BattleshipGame_C#\bin\Debug\SwinGame.dll
 C:\Users\User\BattleshipGame\BattleshipGame_C#\obj\x86\Debug-Windows\BattleshipGame.csprojResolveAssemblyReference.cache
 C:\Users\User\BattleshipGame\BattleshipGame_C#\obj\x86\Debug-Windows\MyGame.exe
+<<<<<<< HEAD
 C:\Users\wong\Desktop\BattleshipGame\BattleshipGame_C#\bin\Debug\Resources\animations\startup.txt
 C:\Users\wong\Desktop\BattleshipGame\BattleshipGame_C#\bin\Debug\Resources\bundles\FileDialog.txt
 C:\Users\wong\Desktop\BattleshipGame\BattleshipGame_C#\bin\Debug\Resources\bundles\splash.txt
@@ -46,3 +47,11 @@ C:\Users\wong\Desktop\BattleshipGame\BattleshipGame_C#\bin\Debug\Resources\SwinG
 C:\Users\wong\Desktop\BattleshipGame\BattleshipGame_C#\bin\Debug\MyGame.exe
 C:\Users\wong\Desktop\BattleshipGame\BattleshipGame_C#\bin\Debug\SwinGame.dll
 C:\Users\wong\Desktop\BattleshipGame\BattleshipGame_C#\obj\x86\Debug-Windows\MyGame.exe
+=======
+C:\Users\USER\BattleshipGame\BattleshipGame_C#\bin\Debug\mscorlib.dll
+C:\Users\USER\BattleshipGame\BattleshipGame_C#\bin\Debug\normidna.nlp
+C:\Users\USER\BattleshipGame\BattleshipGame_C#\bin\Debug\normnfc.nlp
+C:\Users\USER\BattleshipGame\BattleshipGame_C#\bin\Debug\normnfd.nlp
+C:\Users\USER\BattleshipGame\BattleshipGame_C#\bin\Debug\normnfkc.nlp
+C:\Users\USER\BattleshipGame\BattleshipGame_C#\bin\Debug\normnfkd.nlp
+>>>>>>> 1c2a407530c506a7f92ab661aac5deef988e4682
