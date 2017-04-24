@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="MyGame.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug-Windows|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DeploymentController.cs">
+    <Files>
+      <File FileName="GameLogic.cs" Line="14" Column="19" />
+      <File FileName="GameController.cs" Line="6" Column="1" />
+      <File FileName="EndingGameController.cs" Line="5" Column="34" />
+      <File FileName="DeploymentController.cs" Line="35" Column="44" />
+      <File FileName="DiscoveryController.cs" Line="5" Column="34" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <RunToCursorBreakpoint file="C:\Users\wong\Desktop\SwinGameXamarinV1\DeploymentController.cs" line="37" column="54" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
