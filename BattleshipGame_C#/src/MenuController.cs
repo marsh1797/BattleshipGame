@@ -28,6 +28,7 @@ static class MenuController
 			"SCORES",
 			"MUTE",
 			"RULE",
+			"FULLSCREEN",
 			"QUIT"
 		},
 		new string[] {
@@ -50,7 +51,7 @@ static class MenuController
 	private const int MENU_TOP = 575;
 	private const int MENU_LEFT = 30;
 	private const int MENU_GAP = 0;
-	private const int BUTTON_WIDTH = 75;
+	private const int BUTTON_WIDTH = 80;
 	private const int BUTTON_HEIGHT = 15;
 	private const int BUTTON_SEP = BUTTON_WIDTH + MENU_GAP;
 
@@ -64,7 +65,8 @@ static class MenuController
 	private const int MAIN_MENU_TOP_SCORES_BUTTON = 2;
 	private const int MAIN_MENU_MUTE_BUTTON = 3;
 	private const int MAIN_MENU_RULE_BUTTON = 4;
-	private const int MAIN_MENU_QUIT_BUTTON = 5;
+	private const int MAIN_MENU_FULLSCREEN_BUTTON = 5;
+	private const int MAIN_MENU_QUIT_BUTTON = 6;
 
 
 	private const int SETUP_MENU_EASY_BUTTON = 0;
@@ -309,9 +311,13 @@ static class MenuController
 			GameController.AddNewState (GameState.ViewRules);
 			break;
 
-			case MAIN_MENU_QUIT_BUTTON:
+		case MAIN_MENU_FULLSCREEN_BUTTON:
+			SwinGame.ToggleFullScreen ();
+			break;
+
+		case MAIN_MENU_QUIT_BUTTON:
 			GameController.EndCurrentState();
-				break;
+			break;
 		}
 	}
 
