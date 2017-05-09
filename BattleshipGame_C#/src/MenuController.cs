@@ -5,6 +5,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using SwinGameSDK;
+//Added by Eva - create dialog box
+using System.Windows.Forms;
 
 /// <summary>
 /// The menu controller handles the drawing and user interactions
@@ -316,7 +318,10 @@ static class MenuController
 			break;
 
 		case MAIN_MENU_QUIT_BUTTON:
-			GameController.EndCurrentState();
+			//Added by Eva - prompt user yes or no when quit button is clicked
+			if (MessageBox.Show ("Are you sure you want to quit?", "QUIT", MessageBoxButtons.YesNo) == DialogResult.Yes) {
+				GameController.EndCurrentState ();
+			}
 			break;
 		}
 	}
@@ -375,10 +380,14 @@ static class MenuController
 				GameController.EndCurrentState();
 				break;
 			case GAME_MENU_SURRENDER_BUTTON:
-			GameController.EndCurrentState();
+			//Added by Eva - prompt user to back to main menu when surrender button is clicked
+			if (MessageBox.Show ("Give up?\n Back to main menu", "SURRENDER", MessageBoxButtons.OKCancel) == DialogResult.OK) {
+				GameController.EndCurrentState ();
 				//end game menu
-			GameController.EndCurrentState();
+				GameController.EndCurrentState ();
 				//end game
+			}
+
 				break;
 		
 		case GAME_MENU_MUTE_BUTTON:
@@ -398,11 +407,15 @@ static class MenuController
 				break;
 			}
 			case GAME_MENU_QUIT_BUTTON:
-			GameController.AddNewState(GameState.Quitting);
+			//Added by Eva - prompt user yes or no when quit button is clicked
+			if (MessageBox.Show ("Are you sure you want to quit?", "QUIT", MessageBoxButtons.YesNo) == DialogResult.Yes) {
+				GameController.AddNewState (GameState.Quitting);
+			}
 				break;
-		case GAME_MENU_RULE_BUTTON:
-			GameController.AddNewState (GameState.ViewRules);
-			break;
+
+			case GAME_MENU_RULE_BUTTON:
+				GameController.AddNewState (GameState.ViewRules);
+				break;
 		}
 	}
 }

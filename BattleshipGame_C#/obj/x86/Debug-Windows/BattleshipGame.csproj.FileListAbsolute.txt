@@ -70,3 +70,9 @@ C:\Users\wong\Desktop\BattleshipGame\BattleshipGame_C#\bin\Debug\Resources\SwinG
 C:\Users\wong\Desktop\BattleshipGame\BattleshipGame_C#\bin\Debug\Resources\SwinGame.ico
 C:\Users\wong\Desktop\BattleshipGame\BattleshipGame_C#\bin\Debug\MyGame.exe
 C:\Users\wong\Desktop\BattleshipGame\BattleshipGame_C#\bin\Debug\SwinGame.dll
+C:\Users\USER\BattleshipGame\BattleshipGame_C#\bin\Debug\mscorlib.dll
+C:\Users\USER\BattleshipGame\BattleshipGame_C#\bin\Debug\normidna.nlp
+C:\Users\USER\BattleshipGame\BattleshipGame_C#\bin\Debug\normnfc.nlp
+C:\Users\USER\BattleshipGame\BattleshipGame_C#\bin\Debug\normnfd.nlp
+C:\Users\USER\BattleshipGame\BattleshipGame_C#\bin\Debug\normnfkc.nlp
+C:\Users\USER\BattleshipGame\BattleshipGame_C#\bin\Debug\normnfkd.nlp
